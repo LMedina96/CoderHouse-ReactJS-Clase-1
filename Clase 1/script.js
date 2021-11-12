@@ -4,7 +4,9 @@ var cleanForm = () =>{
     document.getElementById("idComentary").value = "";
 }
 
-var sendCommentary = () =>{
+document.addEventListener("submit", (e) =>{
+
+    e.preventDefault();
 
     let name = document.getElementById("idName").value;
     let email = document.getElementById("idContact").value;
@@ -26,4 +28,4 @@ var sendCommentary = () =>{
     }else{
         alert("Por favor llena todos los campos");
     }
-}
+})
