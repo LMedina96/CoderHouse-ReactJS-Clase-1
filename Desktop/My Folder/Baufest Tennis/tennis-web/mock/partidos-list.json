@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "fechaComienzo": "30/06/2021",
+        "estado": "NO_INICIADO",
+        "jugadorLocal": "pepe",
+        "jugadorVisitante": "jose"
+    },
+    {
+        "id": 2,
+        "fechaComienzo": "29/06/2021",
+        "estado": "NO_INICIADO",
+        "jugadorLocal": "saul",
+        "jugadorVisitante": "anibal"
+    }
+]
